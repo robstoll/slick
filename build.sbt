@@ -128,6 +128,8 @@ lazy val slick =
       // suppress test status output
       test := {},
       testOnly := {},
+
+      //TODO @nafg remove again in spirit of ff385cd0
       mimaCheckDirection := "both",
 
       mimaPreviousArtifacts :=
